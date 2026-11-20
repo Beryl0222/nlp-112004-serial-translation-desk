@@ -1,0 +1,67 @@
+{
+  "chapters": {
+    "columns": {
+      "id": "string",
+      "chapter": "integer",
+      "order": "integer",
+      "pointOfView": "string",
+      "kind": "string",
+      "text": "string"
+    },
+    "links": {}
+  },
+  "lexicon": {
+    "columns": {
+      "id": "string",
+      "actor": "string",
+      "handles": "array",
+      "editorOnly": "string",
+      "visibleAfter": "string?"
+    },
+    "links": {
+      "visibleAfter": "chapters"
+    }
+  },
+  "translations": {
+    "columns": {
+      "id": "string",
+      "region": "string",
+      "language": "string",
+      "rev": "string",
+      "links": "array",
+      "previous": "string?",
+      "body": "string"
+    },
+    "links": {
+      "previous": "translations",
+      "links": "chapters"
+    }
+  },
+  "issues": {
+    "columns": {
+      "id": "string",
+      "region": "string",
+      "state": "string",
+      "at": "string",
+      "translations": "array",
+      "requires": "array",
+      "note": "string"
+    },
+    "links": {
+      "translations": "translations",
+      "requires": "chapters"
+    }
+  },
+  "editorial": {
+    "columns": {
+      "id": "string",
+      "region": "string",
+      "related": "array",
+      "at": "string",
+      "text": "string"
+    },
+    "links": {
+      "related": "translations"
+    }
+  }
+}

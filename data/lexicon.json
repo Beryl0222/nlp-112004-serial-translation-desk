@@ -1,0 +1,34 @@
+[
+  {
+    "id": "l1",
+    "actor": "韩芦",
+    "handles": [
+      "芦",
+      "看灯人",
+      "阿芦"
+    ],
+    "editorOnly": "两名值夜者之一，第三回信件才明确庐灯归属。",
+    "visibleAfter": "c31"
+  },
+  {
+    "id": "l2",
+    "actor": "冬澈",
+    "handles": [
+      "副手",
+      "候船人"
+    ],
+    "editorOnly": "知歌且当晚在册上，首回不能排除。",
+    "visibleAfter": null
+  },
+  {
+    "id": "l3",
+    "actor": "小满的师父",
+    "handles": [
+      "掌灯的",
+      "老水手",
+      "老师傅"
+    ],
+    "editorOnly": "小满以为会回来。其他人物也可能把职务说成称呼。",
+    "visibleAfter": null
+  }
+]
